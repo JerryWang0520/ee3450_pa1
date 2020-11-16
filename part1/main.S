@@ -18,8 +18,8 @@ main:
   la a0, array      # assign array address to a0
   ld s0, size       # assign array size to s0
 
-  li s1, 0
-  li s2, 1
+  li s1, 0          # first element index to swap
+  li s2, 1          # second element index to swap
 
   #jump to function
   jal swap
